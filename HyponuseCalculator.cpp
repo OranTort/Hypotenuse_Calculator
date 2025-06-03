@@ -23,5 +23,6 @@ int main() {
 
     std::cout << "Side C: " << c << "\n"; 
 
+    system("pause");
     return 0;
 }
