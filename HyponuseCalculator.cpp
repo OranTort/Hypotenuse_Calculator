@@ -8,8 +8,9 @@ int main() {
     double a;
     double b;
     double c;
+    char cont;
 
-    std::cout << "Enter Side A: ";
+    do{std::cout << "Enter Side A: ";
     std::cin >> a;
 
     std::cout << "Enter Side B: ";
@@ -23,6 +24,9 @@ int main() {
 
     std::cout << "Side C: " << c << "\n"; 
 
-    system("pause");
+    std::cout << "Do you wish to continue?(Y/N): ";
+    std::cin >> cont;
+    }while(cont == 'Y' || cont == 'y');
+
     return 0;
 }
