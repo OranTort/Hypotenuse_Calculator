@@ -26,7 +26,8 @@ int main() {
 
     std::cout << "Do you wish to continue?(Y/N): ";
     std::cin >> cont;
-    }while(cont == 'Y' || cont == 'y');
+    cont = toupper(cont);
+    }while(cont == 'Y');
 
     return 0;
 }
