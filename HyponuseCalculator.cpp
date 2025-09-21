@@ -2,6 +2,7 @@
 #include <vector>
 #include <cmath>
 
+using namespace std;
 
 int main() {
 
@@ -10,11 +11,11 @@ int main() {
     double c;
     char cont;
 
-    do{std::cout << "Enter Side A: ";
-    std::cin >> a;
+    do{cout << "Enter Side A: ";
+    cin >> a;
 
-    std::cout << "Enter Side B: ";
-    std::cin >> b;
+    cout << "Enter Side B: ";
+    cin >> b;
 
     //a = pow(a, 2);
     //b = pow(b, 2);
@@ -22,10 +23,10 @@ int main() {
 
     c = sqrt(pow(a, 2) + pow(b, 2));
 
-    std::cout << "Side C: " << c << "\n"; 
+    cout << "Side C: " << c << "\n"; 
 
-    std::cout << "Do you wish to continue?(Y/N): ";
-    std::cin >> cont;
+    cout << "Do you wish to continue?(Y/N): ";
+    cin >> cont;
     cont = toupper(cont);
     }while(cont == 'Y');
 
