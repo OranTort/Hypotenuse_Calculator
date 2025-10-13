@@ -6,9 +6,7 @@ using namespace std;
 
 int main() {
 
-    double a;
-    double b;
-    double c;
+    double a, b, c;
     char cont;
 
     do{cout << "Enter Side A: ";
